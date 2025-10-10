@@ -15,8 +15,11 @@ PIP_PACKAGES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/57618?type=Model&format=SafeTensor&size=pruned&fp=fp32"
-    "https://civitai.com/api/download/models/2246264?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/57618?type=Model&format=SafeTensor&size=pruned&fp=fp32" # model : Counterfeit-V3.0
+    "https://civitai.com/api/download/models/2288715?type=Model&format=SafeTensor&size=pruned&fp=fp16" # model: Nova Mature XL
+    "https://huggingface.co/galachan426/sd/resolve/main/animayhemPaleRider_v10.safetensors"  # model:mayhemPaleRider
+    "https://huggingface.co/galachan426/sd/resolve/main/Chroma-Anime-v3.safetensors" #model : Chroma-Anime V3
+    
     
 )
 
