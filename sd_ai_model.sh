@@ -18,7 +18,6 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/57618?type=Model&format=SafeTensor&size=pruned&fp=fp32" # model : Counterfeit-V3.0
     "https://civitai.com/api/download/models/2288715?type=Model&format=SafeTensor&size=pruned&fp=fp16" # model: Nova Mature XL
     "https://huggingface.co/galachan426/sd/resolve/main/animayhemPaleRider_v10.safetensors"  # model:mayhemPaleRider
-    "https://huggingface.co/galachan426/sd/resolve/main/Chroma-Anime-v3.safetensors" #model : Chroma-Anime V3
     
     
 )
@@ -27,6 +26,9 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
+"https://huggingface.co/galachan426/sd/resolve/main/Lora_Chroma-Anime-v3.safetensors"  #model : Chroma-Anime V3
+"https://huggingface.co/galachan426/sd/resolve/main/Lora_Dark_Ghibli_base_model_Illustrious.safetensors" #model: Dark_Ghibli
+
 )
 
 VAE_MODELS=(
